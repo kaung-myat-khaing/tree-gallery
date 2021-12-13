@@ -10,108 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="imgs/tree.png">
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: 'Bebas Neue', cursive;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: #7B5133;
-        }
-        .title {
-            margin-top: 5%;
-            font-size: 3rem;
-            color: rgb(49, 218, 49);
-            letter-spacing: 1rem;
-            display: flex;
-            justify-content: center;
-        }
-
-
-        .card {
-            padding: 20px;
-            width: 400px;
-            height: 230px;
-            background-color: white;
-            line-height: 2;
-            text-align: center;
-            margin: 5% auto;
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            letter-spacing: 2px;
-            border-radius: 10px;
-        }
-        .name {
-            color: green;
-        }
-
-        .gallery {
-            width: 80%;
-            columns: 3 300px;
-            margin: 0 auto;
-            column-gap: 30px;
-            background-color: rgba(233, 233, 233, 0.247);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        }
-
-        .gallery>img {
-            width: 100%;
-            border-radius: 10px;
-            margin: 20px 0;
-            filter: brightness(100%);
-            transition: .2s ease-in-out;
-        }
-        .gallery>img:hover {
-            transform: translateY(-10px);
-            filter: brightness(80%);
-        }
-
-        /* for tablet/plus-size smartphones  */
-        @media screen and (max-width: 1000px) {
-            .card {
-                width: 360px;
-                height: 190px;
-            }
-            .gallery{
-                column-count: 2;
-                column-width: 100px;
-                column-gap: 10px;
-                padding: 10px;
-            }
-            .gallery>img {
-                width: 100%;
-                margin: 10px 0;
-            }
-        }
-        /* for iPhone 5/SE */
-        @media screen and (max-width: 320px){
-            .card {
-                width: 300px;
-                height: 250px;
-            }
-            .gallery{
-                column-count: 2;
-                column-width: 100px;
-                column-gap: 10px;
-                padding: 10px;
-            }
-            .gallery>img {
-                width: 100%;
-                margin: 10px 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <div class="title"><span>Trees</span></div>
     <p class="card">
-        A tree has roots in the soil yet reaches to the sky. It tells us that in order to 
-        aspire we need to be grounded and that no matter how high we go it is from our roots that we draw sustenance. - 
+        A tree has roots in the soil yet reaches to the sky. It tells us that in order to
+        aspire we need to be grounded and that no matter how high we go it is from our roots that we draw sustenance. -
         <span class="name">Wangari Maathai</span>
     </p>
     <div class="gallery">
