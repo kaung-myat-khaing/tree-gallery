@@ -6,16 +6,26 @@
 }
 
 body {
-    background-color: #7B5133;
+    background-color: rgb(133, 69, 17);
 }
 
 .title {
     margin-top: 5%;
     font-size: 3rem;
-    color: rgb(49, 218, 49);
+    
+    /* color: rgb(49, 218, 49); */
     letter-spacing: 1rem;
     display: flex;
     justify-content: center;
+}
+.title span {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 
@@ -33,7 +43,7 @@ body {
 }
 
 .name {
-    color: green;
+    color: #56ab2f;
 }
 
 .gallery {
